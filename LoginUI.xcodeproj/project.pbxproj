@@ -13,6 +13,7 @@
 		1D668601246C611B0002B4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D668600246C611B0002B4AB /* Assets.xcassets */; };
 		1D668604246C611B0002B4AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D668603246C611B0002B4AB /* Preview Assets.xcassets */; };
 		1D668607246C611B0002B4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D668605246C611B0002B4AB /* LaunchScreen.storyboard */; };
+		1D668610246C61C20002B4AB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D66860F246C61C20002B4AB /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		1D668603246C611B0002B4AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D668606246C611B0002B4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D668608246C611B0002B4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D66860E246C613A0002B4AB /* OpenSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenSans.ttf; sourceTree = "<group>"; };
+		1D66860F246C61C20002B4AB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +63,11 @@
 				1D6685FC246C61180002B4AB /* SceneDelegate.swift */,
 				1D6685FE246C61180002B4AB /* ContentView.swift */,
 				1D668600246C611B0002B4AB /* Assets.xcassets */,
+				1D66860E246C613A0002B4AB /* OpenSans.ttf */,
 				1D668605246C611B0002B4AB /* LaunchScreen.storyboard */,
 				1D668608246C611B0002B4AB /* Info.plist */,
 				1D668602246C611B0002B4AB /* Preview Content */,
+				1D66860F246C61C20002B4AB /* LoginView.swift */,
 			);
 			path = LoginUI;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			files = (
 				1D6685FB246C61180002B4AB /* AppDelegate.swift in Sources */,
 				1D6685FD246C61180002B4AB /* SceneDelegate.swift in Sources */,
+				1D668610246C61C20002B4AB /* LoginView.swift in Sources */,
 				1D6685FF246C61180002B4AB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
